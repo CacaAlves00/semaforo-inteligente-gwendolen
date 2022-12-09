@@ -1,0 +1,26 @@
+.App {
+  width: 80vw;
+  height: 100vh;
+  background-image: url("./assets/road-to-heaven-or-hell.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 10vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+svg:nth-child(1) {
+  margin-right: 7vw;
+}
+
+svg:nth-child(2) {
+  margin-left: 7vw;
+}
+
+h2 {
+  margin: 25vh auto;
+  width: 100vw;
+  text-align: center;
+}
